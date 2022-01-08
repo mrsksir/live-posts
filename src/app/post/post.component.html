@@ -1,12 +1,10 @@
-<h1>Nature</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit i
-    psum obcaecati ducimus nostrum laboriosam excepturi nisi quos beatae dolorum
-    voluptatibus enim animi, tenetur maximeut est expedita vero et cupiditate?
-</p>
+<!-- here we are using ? sign because we are receiving the post so that
+    there may or may not be post -->
+<h1>{{ post?.title }}</h1>
+<p>{{ post?.description }}</p>
 
-<img src="https://curlytales.com/wp-content/uploads/2020/08/featurenature1-1170x614.jpg" alt=""
-    class="img-responsive" />
+<img src="{{post?.imagePath}}" alt="" class="img-responsive" />
 
-<p>Author: test@nature.com</p>
-<p>Date: 1 Jan 2022</p>
+<p>Author <i>{{ post?.author }}</i></p>
+<p>Date: {{post?.datetimeCreated }}</p>
 <button>Edit</button> | <button>Delete</button>

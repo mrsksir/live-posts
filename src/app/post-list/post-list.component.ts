@@ -10,7 +10,7 @@ export class PostListComponent implements OnInit {
   listOfPosts: Post[] = [
     new Post(
       'Nature1',
-      `2Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsum 
+      `1Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsum 
       obcaecatiducimus nostrum laboriosam excepturi nisi quos beatae dolorum voluptatibus enim animi, 
       tenetur maximeut est expedita vero et cupiditate?`,
       `https://curlytales.com/wp-content/uploads/2020/08/featurenature1-1170x614.jpg`,
